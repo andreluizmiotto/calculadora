@@ -7,5 +7,4 @@ public interface ICalculadora {
     ICalculadora Calcular(IOperacaoAritmetica operacao);
     BigDecimal GetResultado();
 
-
 }

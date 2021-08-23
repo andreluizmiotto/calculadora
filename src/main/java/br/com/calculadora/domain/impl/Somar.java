@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 
 public class Somar implements IOperacaoAritmetica {
 
-    private BigDecimal parcela2;
+    private final BigDecimal parcela2;
 
     public Somar(BigDecimal parcela2) {
         this.parcela2 = parcela2;

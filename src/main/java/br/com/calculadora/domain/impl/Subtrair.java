@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 
 public class Subtrair implements IOperacaoAritmetica {
 
-    private BigDecimal subtraendo;
+    private final BigDecimal subtraendo;
 
     public Subtrair(BigDecimal subtraendo) {
         this.subtraendo = subtraendo;
