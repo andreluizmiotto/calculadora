@@ -1,4 +1,4 @@
-package br.com.calculadora.domain;
+package br.com.calculadora.domain.calcular;
 
 import java.math.BigDecimal;
 
